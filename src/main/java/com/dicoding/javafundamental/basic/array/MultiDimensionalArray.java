@@ -30,6 +30,12 @@ public class MultiDimensionalArray {
                 System.out.println("E");
             }
         }
+        for (int i = 0; i < arrChar.length; i++) {
+            for (int j = 0; j < arrChar[i].length; j++) {
+                System.out.print(arrChar[i][j] + " ");
+            }
+            System.out.println();
+        }
 
     }
 }
