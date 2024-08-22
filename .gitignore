@@ -1,0 +1,72 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+src merupakan direktori source code
+    dimana kita bisa nulis business logic.
++main merupakan direktori kode utama
++test merupakan direktori
+    buat nulis unit testing.
+++java merupakan direktori
+    buat nyimpen semua code dalam java,
+    sedangkan
+++resource buat nyimpen file-file yang
+    bakal ikut dicompile bareng project.
+target adalah hasil compile yang berupa JAR,
+    WAR atau .class
+pom.xml yaitu file buat ngatur kompilasi project.
+    pom yang merupakan singkatan dari Project Object Model.
+    POM ini berbentuk file xml
+
+package: Kata kunci yang digunakan untuk mendeklarasikan paket. Ini mengorganisir kelas ke dalam namespace.
+com.dicoding.javafundamental.basic.musik: Nama paket tempat kelas Gitar berada. Paket ini mengikuti struktur hirarki dan konvensi penamaan.
+
+public: Modifier akses yang berarti kelas ini dapat diakses dari kelas lain di seluruh aplikasi.
+class: Kata kunci untuk mendefinisikan kelas.
+Gitar: Nama kelas. Harus dimulai dengan huruf kapital dan mengikuti konvensi PascalCase.
+
+public: Modifier akses yang berarti metode ini dapat diakses dari luar kelas.
+static: Menunjukkan bahwa metode ini milik kelas, bukan instance dari kelas.
+void: Tipe data yang menunjukkan bahwa metode ini tidak mengembalikan nilai.
+main: Nama metode utama yang merupakan titik masuk eksekusi program Java.
+String args: Parameter metode main, yaitu array dari string yang bisa digunakan untuk menerima argumen dari command line.
+
+System: Kelas dari paket java.lang yang menyediakan akses ke fungsionalitas sistem.
+out: Objek dari kelas PrintStream yang digunakan untuk output ke console.
+println: Metode dari PrintStream yang mencetak teks ke console diikuti dengan baris baru.
+"Jrengg": String literal yang akan dicetak ke console.
