@@ -37,6 +37,7 @@ build/
 ### Mac OS ###
 .DS_Store
 
+JRE untuk menjalankan program, sedangkan JDK untuk membuat program
 src merupakan direktori source code
     dimana kita bisa nulis business logic.
 +main merupakan direktori kode utama
