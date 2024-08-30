@@ -1,4 +1,4 @@
-package com.dicoding.javafundamental.basic.collection;
+package com.dicoding.javafundamental.collection;
 
 class Planet {
     private String name;

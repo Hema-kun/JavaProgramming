@@ -1,4 +1,4 @@
-package com.dicoding.javafundamental.basic.controlflow;
+package com.dicoding.javafundamental.controlflow;
 
 public class Perulangan {
     public static void main(String[] args) {

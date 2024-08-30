@@ -1,4 +1,4 @@
-package com.dicoding.javafundamental.basic.collection;
+package com.dicoding.javafundamental.collection;
 
 import java.util.HashSet;
 import java.util.Iterator;
