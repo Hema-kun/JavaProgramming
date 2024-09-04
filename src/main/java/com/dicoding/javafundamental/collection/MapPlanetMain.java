@@ -6,6 +6,7 @@ import java.util.Map;
 public class MapPlanetMain {
 
     public static void main(String[] args) {
+        //Menggunakan Hashmap
         Map<String, Planet> planets = new HashMap<>();
         planets.put("key-1", new Planet("Mercury", 0.06)); // method put() untuk menambahkan objek ke Map
         planets.put("key-2", new Planet("Venus", 0.82));

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ListPlanet {
     public static void main(String[] args) {
-        //deklarasi
+        //deklarasi Array
         String[] heroes = new String[2];
         heroes[0] = "riki";
         heroes[1] = "sven";
