@@ -5,7 +5,7 @@ public class Main {
 
         KelasA kelasA = new KelasA();
 
-//        System.out.println(kelasA.memberA);;
+//        System.out.println(kelasA.memberA);
 //
 //        System.out.println(kelasA.functionA());
 
