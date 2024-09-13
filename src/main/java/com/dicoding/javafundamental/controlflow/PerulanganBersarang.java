@@ -10,6 +10,14 @@ public class PerulanganBersarang {
             System.out.println("");
         }
 
+        for( int i =5; i>=1; i--){
+            String str = "";
+            for( int j = 0 ; j<i; j++){
+                str+="*";
+            }
+            System.out.println(str);
+        }
+
         int value = 1;
         while (value <= 10) {
             System.out.print("Angka : " + value);
