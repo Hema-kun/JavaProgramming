@@ -1,7 +1,7 @@
 package com.dicoding.javafundamental.OOP.PropertyMethod;
 
 public class Hewan {
-
+//Properti atau fields adalah atribut yang menjadi anggota dari suatu kelas.
     //properti
     //inisialiasi dengan nilai
     double tinggi = 30;
@@ -15,6 +15,7 @@ public class Hewan {
         this.umur = umur;
     }
 
+    //Metode di dalam kelas adalah block statement yang memiliki nama dan bisa dieksekusi dengan memanggilnya.
     void lari(){
         System.out.println("Berlari");
     }
