@@ -3,6 +3,8 @@ package com.dicoding.javafundamental.collection;
 import java.util.HashMap;
 import java.util.Map;
 
+//Map adalah struktur data dalam bentuk pasangan key-value.
+
 public class MapPlanetMain {
 
     public static void main(String[] args) {

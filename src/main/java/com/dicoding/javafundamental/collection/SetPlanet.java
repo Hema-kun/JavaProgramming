@@ -1,12 +1,16 @@
 package com.dicoding.javafundamental.collection;
 
+import com.sun.security.jgss.GSSUtil;
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+//tidak boleh duplikat
 public class SetPlanet {
     public static void main(String[] args) {
-        //mengggunakan hashset
+
+          //Menggunakan HashSet
         Set<String> planets = new HashSet<>();
         planets.add("mercury"); // method add() untuk menambahkan objek ke Set
         planets.add("venus");
@@ -15,9 +19,12 @@ public class SetPlanet {
         planets.add("earth");
         planets.add("mars"); // objek bisa terus ditambahkan ke Set
 
-        // method size() untuk mendapatkan ukuran Set
-        System.out.println("Set planets awal: (size = " + planets.size() + ")");
-        for (String planet : planets) {
+        System.out.println(planets);
+
+        //method size() untuk mendapatkan ukuran
+        System.out.println("Set planets awal : " + "Size : " + planets.size());
+
+        for(String planet : planets){
             System.out.println("\t " + planet);
         }
 
