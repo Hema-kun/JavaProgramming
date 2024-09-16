@@ -5,12 +5,12 @@ public class Main {
 
         KelasA kelasA = new KelasA();
 
-//        System.out.println(kelasA.memberA);
-//
-//        System.out.println(kelasA.functionA());
-
+        //Dibawah karena mengakses private atribut/method
+        //System.out.println(kelasA.memberA);
+        //System.out.println(kelasA.functionA());
         System.out.println(kelasA.functionB());
 
+        //Akses ke default atribut/method
         System.out.println(kelasA.memberB);
         System.out.println(kelasA.memberC);
     }

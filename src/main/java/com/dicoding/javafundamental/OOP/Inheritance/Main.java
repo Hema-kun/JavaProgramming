@@ -17,7 +17,7 @@ public class Main {
         System.out.println("------------------------");
 
         hewan.makan();
-        kucing.makan();
+        kucing.makan(); // // kucing mewarisi metode makan() dari parent class Hewan
         kucing.makan("Ikan");
 
         Kucing meow = new Kucing("Ocicat", "tropis");

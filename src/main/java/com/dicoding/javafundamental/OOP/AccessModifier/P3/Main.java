@@ -11,6 +11,6 @@ public class Main {
 
         System.out.println("Sampai" + Perhitungan.nilai);
 
-        System.out.println("GetNilai memiliki nilai " + Perhitungan.getNilai());
+        System.out.println("Getnilai = " + Perhitungan.getNilai());
     }
 }
