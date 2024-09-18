@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class WildcardGenerics {
+
     // mengunakan wildcards
     static void print(Collection<?> col) {
         for (Object o : col) {

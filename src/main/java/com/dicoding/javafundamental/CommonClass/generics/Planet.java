@@ -11,6 +11,7 @@ public class Planet {
     }
 
     public void print(){
-        System.out.println("Planet" + name +"mass:" + mass);
+        System.out.println("Planet " + name + "mass " + mass);
+
     }
 }
