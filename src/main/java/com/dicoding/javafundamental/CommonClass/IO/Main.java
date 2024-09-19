@@ -9,30 +9,30 @@ public class Main {
     public static void main(String[] args) {
         //Stream adalah proses secara sekuensial elemen data dari waktu ke waktu
 
-        //byte stream
+        //byte Streams 8 bit
         FileInputStream in = null;
         FileOutputStream out = null;
 
-// Character Stream
-//        FileReader in = null;
-//        FileWriter out = null;
+        //character streams 16 bit
+        // FileReader in = null;
+        // FileWriter out = null;
 
         try{
             in = new FileInputStream("input.txt");
             out = new FileOutputStream("output.txt");
             int c;
 
-            while ((c = in.read()) != -1) {
+            while ((c = in.read()) != -1){
                 out.write(c);
             }
-        }catch(IOException e){
+        }catch (IOException e){
             e.printStackTrace();
         }finally {
-            try{
+            try {
                 if(in != null){
                     in.close();
                 }
-                if(out !=null){
+                if(out != null){
                     out.close();
                 }
             }catch (IOException e){
