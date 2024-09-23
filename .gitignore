@@ -72,6 +72,13 @@ out: Objek dari kelas PrintStream yang digunakan untuk output ke console.
 println: Metode dari PrintStream yang mencetak teks ke console diikuti dengan baris baru.
 "Jrengg": String literal yang akan dicetak ke console.
 
+============================
+Type: Menunjukkan jenis perubahan.
+Contoh: feat (fitur baru), fix (perbaikan bug), docs (dokumentasi), style (format), refactor (refaktorisasi), test (pengujian), chore (tugas umum).
+Short summary: Ringkasan singkat dari perubahan.
+Detailed description: Penjelasan tambahan (jika perlu).
+Issue references: Menyebutkan nomor issue yang relevan (jika ada).
+
 =============================
 <type>: <short summary>
 fix: Resolve issue with date formatting in reports
@@ -82,11 +89,3 @@ Fixed the incorrect date format that was causing issues in the report generation
 <optional issue references>
 Related to #57
 ============================
-Type: Menunjukkan jenis perubahan.
-Contoh: feat (fitur baru), fix (perbaikan bug), docs (dokumentasi), style (format), refactor (refaktorisasi), test (pengujian), chore (tugas umum).
-
-Short summary: Ringkasan singkat dari perubahan.
-
-Detailed description: Penjelasan tambahan (jika perlu).
-
-Issue references: Menyebutkan nomor issue yang relevan (jika ada).
