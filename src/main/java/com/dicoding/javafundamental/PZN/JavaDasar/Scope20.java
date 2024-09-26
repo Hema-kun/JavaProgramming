@@ -15,6 +15,6 @@ public class Scope20 {
             System.out.println(hi);
         }
         System.out.println(hello);
-        System.out.println(hi);//error
+        //System.out.println(hi);//error
     }
 }

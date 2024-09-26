@@ -4,7 +4,7 @@ public class TipeDataNonPrimitif7 {
 
     public static void main(String[] args) {
 
-        //Non-Primitif tidak memiliki default value & null & punya method
+        //Non-Primitif memiliki default value & null & punya method
         Integer iniInteger = 100;
         Long iniLong = 10000L;
 
