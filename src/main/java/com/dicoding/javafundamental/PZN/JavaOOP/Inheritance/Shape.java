@@ -2,7 +2,7 @@ package com.dicoding.javafundamental.PZN.JavaOOP.Inheritance;
 
 public class Shape {
 
-    //utk akses attribute/method diparent class
+    //Super utk akses attribute/method diparent class
     int getCorner(){
         return 0;
     }

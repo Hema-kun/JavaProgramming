@@ -10,6 +10,7 @@ public class ParentApp {
         System.out.println(child.name);
 
         Parent parent = (Parent) child;
-
+        parent.doIt();
+        System.out.println(parent.name);
     }
 }
