@@ -1,0 +1,15 @@
+package com.dicoding.javafundamental.PZN.JavaOOP;
+
+public class ParentApp {
+
+    public static void main(String[] args) {
+
+        Child child = new Child();
+        child.name = "Heru";
+        child.doIt();
+        System.out.println(child.name);
+
+        Parent parent = (Parent) child;
+
+    }
+}
