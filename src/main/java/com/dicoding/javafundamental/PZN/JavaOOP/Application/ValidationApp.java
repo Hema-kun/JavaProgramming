@@ -18,5 +18,11 @@ public class ValidationApp {
         }finally {
             System.out.println("Error ga error akan dijalankan");
         }
+
+
+        LoginRequest loginRequest2 = new LoginRequest(null, null);
+        ValidationUtil.validateRuntime(loginRequest2);
+        System.out.println("Sukses");
     }
+
 }
