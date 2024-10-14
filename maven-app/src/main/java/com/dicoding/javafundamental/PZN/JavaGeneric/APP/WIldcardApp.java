@@ -5,11 +5,11 @@ import com.dicoding.javafundamental.PZN.JavaGeneric.MyData;
 public class WIldcardApp {
 
     public static void main(String[] args) {
-        print(new MyData<Integer>(100));
-        print(new MyData<String>("Heru"));
+        printLength(new MyData<Integer>(100));
+        printLength(new MyData<String>("Heru"));
     }
 
-    public static void print(MyData<?> myData){
-        System.out.println(myData.getData());
+    public static void printLength(MyData<?> Data){
+        System.out.println(Data.getData());
     }
 }
