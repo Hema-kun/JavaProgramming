@@ -6,6 +6,7 @@ public class ArrayHelperApp {
 
     public static void main(String[] args) {
 
+        //from class ArrayHelper (method) include to println method
         String[] names = {"Heru", "Purnama"};
         Integer[] number = {1,2,3,4,5};
 
