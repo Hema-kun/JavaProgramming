@@ -1,5 +1,6 @@
 package com.dicoding.javafundamental.PZN.JavaGeneric;
 
+//Generic Class
 public class MyData<T> {
 
     private T data;

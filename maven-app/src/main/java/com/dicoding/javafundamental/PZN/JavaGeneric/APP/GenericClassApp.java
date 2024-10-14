@@ -6,6 +6,7 @@ public class GenericClassApp {
 
     public static void main(String[] args) {
 
+        //Dari class MyData -> generate value
         MyData<String> stringMyData = new MyData<>("Heru");
         MyData<Integer> integerMyData= new MyData<>(24);
 
