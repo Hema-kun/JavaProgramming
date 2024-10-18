@@ -7,13 +7,13 @@ public class InputOutputOperator {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Program Penjumlahan");
-        System.out.print("Masukkan angka 1 : ");
+        System.out.println("Program sederhanaa");
+        System.out.print("Masukkan angka pertama : ");
         int value = input.nextInt();
-        System.out.print("Masukkan angka 2 :");
+        System.out.print("Masukkan angka kedua : ");
         int value2 = input.nextInt();
         int result = value + value2;
-        System.out.println("Hasilnya adalah : " + result);
+        System.out.println("Hasilnya: " + result);
 
     }
 }
