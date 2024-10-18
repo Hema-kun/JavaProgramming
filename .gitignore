@@ -74,18 +74,31 @@ println: Metode dari PrintStream yang mencetak teks ke console diikuti dengan ba
 
 ============================
 Type: Menunjukkan jenis perubahan.
-Contoh: feat (fitur baru), fix (perbaikan bug), docs (dokumentasi), style (format), refactor (refaktorisasi), test (pengujian), chore (tugas umum).
+    Contoh: feat (fitur baru), fix (perbaikan bug), docs (dokumentasi), style (format), refactor (refaktorisasi), test (pengujian), chore (tugas umum).
 Short summary: Ringkasan singkat dari perubahan.
 Detailed description: Penjelasan tambahan (jika perlu).
 Issue references: Menyebutkan nomor issue yang relevan (jika ada).
 
 =============================
 <type>: <short summary>
-fix: Resolve issue with date formatting in reports
-
+    fix: Resolve issue with date formatting in reports
 <optional detailed description>
-Fixed the incorrect date format that was causing issues in the report generation. The date format now correctly adheres to the ISO 8601 standard.
-
+    Fixed the incorrect date format that was causing issues in the report generation. The date format now correctly adheres to the ISO 8601 standard.
 <optional issue references>
-Related to #57
+    Related to #57
 ============================
+
+1. Class
+Class adalah blueprint/template untuk membuat objek, berisi atribut dan metode.
+
+2. Interface
+Interface adalah kontrak yang mendefinisikan metode yang
+harus diimplementasikan oleh kelas. Tidak bisa memiliki implementasi metode.
+
+3. Annotations
+Annotations adalah metadata yang memberikan informasi
+tambahan kepada compiler atau runtime, seperti instruksi atau konfigurasi.
+
+4. Enum
+Enum adalah tipe data khusus yang mendefinisikan sekumpulan
+konstanta, digunakan untuk mengelompokkan nilai tetap.
