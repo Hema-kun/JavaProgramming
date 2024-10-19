@@ -1,6 +1,7 @@
 package com.dicoding.javafundamental.OOP;
 
 //Constructor adalah method yang secara default sudah terbentuk ketika kelas dibuat
+//                  -> method yg pertama kali dipanggil ketika objek dibuat
 //memberikan nilai awal pada data/objek
 //mengalokasikan ruang pada class
 
